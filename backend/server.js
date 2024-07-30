@@ -26,7 +26,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/posts", postRoutes)
 app.use("/api/notifications", notificationRoutes)
-app.get("/", (req, res)=>{
+app.get("/api/", (req, res)=>{
     res.send("Hello from server");
 }
 )
