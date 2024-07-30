@@ -23,9 +23,5 @@
       "src": "/(.*)",
       "dest": "/frontend/dist/$1"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production",
-    "YOUR_ENV_VARIABLE": "your_value"
-  }
+  ]
 }
