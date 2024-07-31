@@ -8,7 +8,7 @@ export default defineConfig({
 		port: 3000,
 		proxy: {
 			"/api": {
-				target: "https://social-app-mxgj.vercel.app/",
+				target: "https://localhost:5000/",
 				changeOrigin: true,
 			},
 		},
